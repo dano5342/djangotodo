@@ -26,7 +26,8 @@ SECRET_KEY = '8!ecvui+iybm=+t5w=_al2h_e=)i)&f6tu2fhc8tl()9g=jnoo'
 DEBUG = True
 
 ALLOWED_HOSTS = [os.environ.get("C9_HOSTNAME"),
-                 os.environ.get("HOSTNAME")]
+                 os.environ.get("HOSTNAME"),
+                 'django-to-do-dan.herokuapp.com']
 
 
 host = os.environ.get('SITE_HOST')
